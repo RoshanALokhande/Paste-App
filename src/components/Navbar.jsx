@@ -1,4 +1,4 @@
-import { NavbarData } from '../data/Navbar.jsx';
+import { NavbarData } from '../Data/Navbar.jsx';
 import { NavLink } from "react-router-dom";
 const Navbar = () => {
     return (
