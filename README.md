@@ -1,12 +1,41 @@
-# React + Vite
+Paste-App
+A lightweight, React-powered web application for saving and managing text snippets (pastes) via browser local storage. Built with Vite and styled using Tailwind CSS, this app allows users to quickly store, view, and delete text securely—no backend required.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Live Demo
+Try it out: Live Application on Vercel
 
-Currently, two official plugins are available:
+Features
+Save pastes instantly — write or paste text in the input field and store it in your browser.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+View and manage — browse all saved snippets, and delete any with a single click.
 
-## Expanding the ESLint configuration
+Responsive design — works seamlessly across devices—mobile, tablet, and desktop.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Zero server dependencies — data is stored purely in browser local storage.
+
+Tech Stack
+Component	Technology
+Frontend Framework	React (via Vite)
+Styling	Tailwind CSS
+Storage	Browser Local Storage (no backend)
+Build Tooling	Vite
+Linting / Code Standards	ESLint
+
+Getting Started
+Clone the repo
+
+git clone https://github.com/RoshanALokhande/Paste-App.git
+cd Paste-App
+Install dependencies
+
+npm install
+Run it locally
+
+npm run dev
+Open http://localhost:5173 in your browser to see the app in action.
+
+Build for production
+npm run build
+
+Preview production build
+npm run preview
