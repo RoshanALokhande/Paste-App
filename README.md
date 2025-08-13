@@ -2,7 +2,7 @@ Paste-App
 A lightweight, React-powered web application for saving and managing text snippets (pastes) via browser local storage. Built with Vite and styled using Tailwind CSS, this app allows users to quickly store, view, and delete text securely—no backend required.
 
 Live Demo
-Try it out: Live Application on Vercel
+Try it out: https://paste-app-woad-three.vercel.app/
 
 Features
 Save pastes instantly — write or paste text in the input field and store it in your browser.
